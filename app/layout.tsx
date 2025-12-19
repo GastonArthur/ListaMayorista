@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.png',
+        type: 'image/png',
+      },
+      {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
       },
@@ -19,12 +23,9 @@ export const metadata: Metadata = {
         url: '/icon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
     ],
     apple: '/apple-icon.png',
+    shortcut: '/favicon.png',
   },
 }
 
